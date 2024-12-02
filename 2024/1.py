@@ -1,6 +1,7 @@
 """
-Data 1 of Advent of Code 2024
+Day 1 of Advent of Code 2024
 """
+
 with open("1.example", "r") as f:
     example_data = f.read().splitlines()
 
