@@ -30,7 +30,7 @@ def solve_part_one(lines: list[str]) -> int:
 
 assert solve_part_one(example_data) == 11
 
-print(solve_part_one(data))
+print(solve_part_one(data)) # 1603498
 
 def solve_part_two(lines: list[str]) -> int:
     score = 0
@@ -41,4 +41,4 @@ def solve_part_two(lines: list[str]) -> int:
 
 assert solve_part_two(example_data) == 31
 
-print(solve_part_two(data))
+print(solve_part_two(data)) # 25574739
