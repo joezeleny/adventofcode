@@ -10,14 +10,13 @@ with open("5.example", "r") as f:
 with open("5.data", "r") as f:
     data = f.read().splitlines()
 
-class InvalidUpdate(Exception):
-    pass
 
 def split_rules_updates(lines: list[str]) -> tuple[list[str], list[str]]:
     sep = lines.index('')
     rules = lines[:sep]
     updates = lines[sep+1:]
     return rules, updates
+
 
 def get_rule_mapping(rules: list[str]) -> dict[str, list[str]]:
     rule_mapping = defaultdict(list)
